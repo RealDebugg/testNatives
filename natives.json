@@ -1,5 +1,5 @@
 {
-	"TimeCycle.instance": {
+	"Clock.instance": {
 		"0x66F9EB44342BB4C5": {
 			"name": "_0x66F9EB44342BB4C5",
 			"comment": "",
@@ -69,7 +69,7 @@
 			"build": "1207"
 		},
 		"AdvanceClockSpeed": {
-			"name": "AdvanceClockSpeed",
+			"name": "Advance_Clock_Speed",
 			"comment": "",
 			"params": [
 				{
@@ -82,8 +82,7 @@
 				}
 			],
 			"description":"hi",
-			"return_type": "void",
-			"results":"Any",
+			"results":"void",
 			"examples":[],
 			"build": "1207"
 		}
