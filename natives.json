@@ -1,73 +1,5 @@
 {
 	"Clock.instance": {
-		"0x66F9EB44342BB4C5": {
-			"name": "_0x66F9EB44342BB4C5",
-			"comment": "",
-			"params": [
-				{
-					"type": "Any",
-					"name": "p0"
-				},
-				{
-					"type": "Any",
-					"name": "p1"
-				}
-			],
-			"return_type": "void",
-			"build": "1207"
-		},
-		"0x0B9F7A01EC50448D": {
-			"name": "_0x0B9F7A01EC50448D",
-			"comment": "",
-			"params": [
-				{
-					"type": "Any",
-					"name": "p0"
-				},
-				{
-					"type": "Any",
-					"name": "p1"
-				}
-			],
-			"return_type": "void",
-			"build": "1207"
-		},
-		"0x0EABF182FBB63D72": {
-			"name": "_0x0EABF182FBB63D72",
-			"comment": "",
-			"params": [
-				{
-					"type": "Any",
-					"name": "p0"
-				},
-				{
-					"type": "Any",
-					"name": "p1"
-				},
-				{
-					"type": "Any",
-					"name": "p2"
-				}
-			],
-			"return_type": "void",
-			"build": "1207"
-		},
-		"0x6098139150DCC745": {
-			"name": "_0x6098139150DCC745",
-			"comment": "",
-			"params": [
-				{
-					"type": "Any",
-					"name": "p0"
-				},
-				{
-					"type": "Any",
-					"name": "p1"
-				}
-			],
-			"return_type": "Any",
-			"build": "1207"
-		},
 		"AdvanceClockSpeed": {
 			"name": "Advance_Clock_Speed",
 			"comment": "",
@@ -84,7 +16,49 @@
 			"description":"hi",
 			"results":"void",
 			"examples":[],
-			"build": "1207"
+			"build": "1"
+		},
+		"SetClockSpeed": {
+			"name": "Set_Clock_Speed",
+			"comment": "",
+			"params": [
+				{
+					"type": "float",
+					"name": "speed"
+				}
+			],
+			"description":"hi",
+			"results":"void",
+			"examples":[],
+			"build": "1"
+		},
+		"SetClock": {
+			"name": "Set_Clock",
+			"comment": "",
+			"params": [
+				{
+					"type": "int",
+					"name": "minutes"
+				}
+			],
+			"description":"hi",
+			"results":"void",
+			"examples":[],
+			"build": "1"
+		},
+		"PauseClock": {
+			"name": "Pause_Clock",
+			"comment": "",
+			"params": [
+				{
+					"type": "bool",
+					"name": "state"
+				}
+			],
+			"description":"hi",
+			"results":"void",
+			"examples":[],
+			"build": "1"
 		}
 	}
 }
