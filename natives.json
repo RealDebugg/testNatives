@@ -1,20 +1,18 @@
 {
-	"_NAMESPACE29": {
-		"0x66F9EB44342BB4C5": {
-			"name": "_0x66F9EB44342BB4C5",
+	"BUILTIN": {
+		"0x4EDE34FBADD967A6": {
+			"name": "WAIT",
 			"comment": "",
 			"params": [
 				{
-					"type": "Any",
-					"name": "p0"
-				},
-				{
-					"type": "Any",
-					"name": "p1"
+					"type": "int",
+					"name": "ms"
 				}
 			],
 			"return_type": "void",
-			"build": "1207"
+			"build": "1207",
+			"gta_hash": "0x4EDE34FBADD967A6",
+			"gta_jhash": "0x7715C03B"
 		}
 	}
 }
