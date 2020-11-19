@@ -55,7 +55,7 @@
 					"name": "state"
 				}
 			],
-			"description":"```\nFreezes the game time\n<b>Parameters:</b>\n<b>- state:</b> TRUE to freeze time, FALSE to un-freeze time.```",
+			"description":"```\nFreezes the game time\n<strong>Parameters:</strong>\n<strong>- state:</strong> TRUE to freeze time, FALSE to un-freeze time.```",
 			"results":"void",
 			"apiset":"client",
 			"examples":[],
