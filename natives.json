@@ -27,10 +27,10 @@
 				{
 					"type": "float",
 					"name": "speed",
-					"description": "Changes the speed of which the time moves in-game."
+					"description": ""
 				}
 			],
-			"description":"",
+			"description":"Changes the speed of which the time moves in-game.",
 			"results":"void",
 			"resultsDescription": "",
 			"apiset":"client",
@@ -43,10 +43,10 @@
 				{
 					"type": "int",
 					"name": "minutes",
-					"description": "Sets the game time."
+					"description": ""
 				}
 			],
-			"description":"",
+			"description":"Sets the game time.",
 			"results":"void",
 			"resultsDescription": "",
 			"apiset":"client",
@@ -59,10 +59,10 @@
 				{
 					"type": "bool",
 					"name": "state",
-					"description": "Freezes game time."
+					"description": ""
 				}
 			],
-			"description":"",
+			"description":"Freezes game time.",
 			"results":"void",
 			"resultsDescription": "",
 			"apiset":"client",
