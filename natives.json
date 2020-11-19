@@ -70,7 +70,7 @@
 		},
 		"AdvanceClockSpeed": {
 			"name": "AdvanceClockSpeed",
-			"comment": "hello!",
+			"comment": "",
 			"params": [
 				{
 					"type": "int",
@@ -81,6 +81,7 @@
 					"name": "speed"
 				}
 			],
+			"description":"hi",
 			"return_type": "void",
 			"build": "1207"
 		}
