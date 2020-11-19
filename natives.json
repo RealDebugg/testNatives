@@ -68,17 +68,17 @@
 			"return_type": "Any",
 			"build": "1207"
 		},
-		"hi": {
-			"name": "hi",
+		"AdvanceClockSpeed": {
+			"name": "TimeCycle.instance.AdvanceClockSpeed",
 			"comment": "",
 			"params": [
 				{
-					"type": "Any",
-					"name": "p0"
+					"type": "int",
+					"name": "minutes"
 				},
 				{
-					"type": "Any",
-					"name": "p1"
+					"type": "float",
+					"name": "speed"
 				}
 			],
 			"return_type": "void",
