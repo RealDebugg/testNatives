@@ -1,7 +1,7 @@
 {
 	"Clock.instance": {
-		"AdvanceClockSpeed": {
-			"name": "Advance_Clock_Speed",
+		"Advance_Clock_Speed": {
+			"name": "AdvanceClockSpeed",
 			"comment": "",
 			"params": [
 				{
@@ -18,8 +18,8 @@
 			"examples":[],
 			"build": "1"
 		},
-		"SetClockSpeed": {
-			"name": "Set_Clock_Speed",
+		"Set_Clock_Speed": {
+			"name": "SetClockSpeed",
 			"comment": "",
 			"params": [
 				{
@@ -32,8 +32,8 @@
 			"examples":[],
 			"build": "1"
 		},
-		"SetClock": {
-			"name": "Set_Clock",
+		"Set_Clock": {
+			"name": "SetClock",
 			"comment": "",
 			"params": [
 				{
@@ -46,8 +46,8 @@
 			"examples":[],
 			"build": "1"
 		},
-		"PauseClock": {
-			"name": "Pause_Clock",
+		"Pause_Clock": {
+			"name": "PauseClock",
 			"comment": "",
 			"params": [
 				{
