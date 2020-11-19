@@ -2,62 +2,73 @@
 	"Clock.instance": {
 		"Advance_Clock_Speed": {
 			"name": "AdvanceClockSpeed",
-			"comment": "",
 			"params": [
 				{
 					"type": "int",
-					"name": "minutes"
+					"name": "minutes",
+					"description": "Forward to specified minutes."
 				},
 				{
 					"type": "float",
-					"name": "speed"
+					"name": "speed",
+					"description": "Speed of time movement."
 				}
 			],
-			"description":"hi",
+			"description":"Fast forward time temporarily",
+			"hash": "",
 			"results":"void",
+			"resultsDescription": "",
+			"apiset":"client",
 			"examples":[],
 			"build": "1"
 		},
 		"Set_Clock_Speed": {
 			"name": "SetClockSpeed",
-			"comment": "",
 			"params": [
 				{
 					"type": "float",
-					"name": "speed"
+					"name": "speed",
+					"description": "Changes the speed of which the time moves in-game."
 				}
 			],
-			"description":"hi",
+			"description":"",
+			"hash": "",
 			"results":"void",
+			"resultsDescription": "",
+			"apiset":"client",
 			"examples":[],
 			"build": "1"
 		},
 		"Set_Clock": {
 			"name": "SetClock",
-			"comment": "",
 			"params": [
 				{
 					"type": "int",
-					"name": "minutes"
+					"name": "minutes",
+					"description": "Sets the game time."
 				}
 			],
 			"description":"",
+			"hash": "",
 			"results":"void",
+			"resultsDescription": "",
+			"apiset":"client",
 			"examples":[],
 			"build": "1"
 		},
 		"Pause_Clock": {
 			"name": "PauseClock",
-			"comment": "",
 			"params": [
 				{
 					"type": "bool",
 					"name": "state",
-					"description": "Freezes the game time. TRUE to freeze time, FALSE to un-freeze time."
+					"description": "Freezes game time."
 				}
 			],
 			"description":"",
+			"hash": "",
 			"results":"void",
+			"resultsDescription": "",
 			"apiset":"client",
 			"examples":[],
 			"build": "1"
