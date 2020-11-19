@@ -1,5 +1,5 @@
 {
-	"_NAMESPACE29": {
+	"TimeCycle.instance": {
 		"0x66F9EB44342BB4C5": {
 			"name": "_0x66F9EB44342BB4C5",
 			"comment": "",
@@ -69,7 +69,7 @@
 			"build": "1207"
 		},
 		"AdvanceClockSpeed": {
-			"name": "TimeCycle.instance.AdvanceClockSpeed",
+			"name": "AdvanceClockSpeed",
 			"comment": "",
 			"params": [
 				{
