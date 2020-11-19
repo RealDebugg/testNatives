@@ -55,9 +55,9 @@
 					"name": "state"
 				}
 			],
-			"description":"```\nGets the ped's core value on a scale of 0 to 100. The coreIndex is as follows:\n- health = 0,\n- stamina = 1,\n- deadeye = 2\n```",
+			"description":"```\nFreezes the game time\n<b>Parameters:</b>\n<b>- state:</b> TRUE to freeze time, FALSE to un-freeze time.```",
 			"results":"void",
-			"apiset":"server",
+			"apiset":"client",
 			"examples":[],
 			"build": "1"
 		}
