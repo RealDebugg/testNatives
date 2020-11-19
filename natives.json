@@ -48,14 +48,14 @@
 		},
 		"Pause_Clock": {
 			"name": "PauseClock",
-			"comment": "```\nGets the ped's core value on a scale of 0 to 100. The coreIndex is as follows:\n- health = 0,\n- stamina = 1,\n- deadeye = 2\n```",
+			"comment": "",
 			"params": [
 				{
 					"type": "bool",
 					"name": "state"
 				}
 			],
-			"description":"hi",
+			"description":"```\nGets the ped's core value on a scale of 0 to 100. The coreIndex is as follows:\n- health = 0,\n- stamina = 1,\n- deadeye = 2\n```",
 			"results":"void",
 			"examples":[],
 			"build": "1"
