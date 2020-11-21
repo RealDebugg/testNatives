@@ -52,22 +52,6 @@
 			"apiset":"client",
 			"examples":[],
 			"build": "1"
-		},
-		"PauseClock": {
-			"name": "Pause_Clock",
-			"params": [
-				{
-					"type": "bool",
-					"name": "state",
-					"description": ""
-				}
-			],
-			"description":"Freezes game time.",
-			"results":"void",
-			"resultsDescription": "",
-			"apiset":"client",
-			"examples":[],
-			"build": "1"
 		}
 	}
 }
